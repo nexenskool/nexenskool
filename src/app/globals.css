@@ -26,6 +26,6 @@ body {
 
 @layer base {
   .container-fluid {
-    @apply container mx-auto px-5 lg:px-20;
+    @apply container mx-auto px-6 lg:px-12;
   }
 }
