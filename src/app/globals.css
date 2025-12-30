@@ -23,3 +23,9 @@ body {
   color: var(--foreground);
   font-family: "Inter", sans-serif;
 }
+
+@layer base {
+  .container-fluid {
+    @apply container mx-auto px-5 lg:px-20;
+  }
+}
