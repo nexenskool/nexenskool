@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Dropdown from "../ui/dropdown/Dropdown";
+import Dropdown from "../dropdown/Dropdown";
 import MobileNav from "./MobileNav";
 
 export const navItems = [

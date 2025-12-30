@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from "motion/react";
 import Link from "next/link";
 import { useState } from "react";
-import MobileDropdown from "../ui/dropdown/MobileDropdown";
+import MobileDropdown from "../dropdown/MobileDropdown";
 
 export const navItems = [
   {
