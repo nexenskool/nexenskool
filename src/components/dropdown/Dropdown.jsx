@@ -33,7 +33,7 @@ const Dropdown = ({ data }) => {
             {data.items.map((item, index) => (
               <li key={index}>
                 <Link
-                  href={item.path}
+                  href={`/services/${item.path}`}
                   className="block px-4 py-2 text-sm hover:bg-gray-100"
                 >
                   {item.name}
